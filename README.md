@@ -1,2 +1,2 @@
 # Structuring-Machine-Learning-Projects
-Based on Structuring Machine Learning Projects Published in Coursera
+Based on the Structuring Machine Learning Projects course Published on Coursera
