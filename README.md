@@ -27,7 +27,7 @@ Validation set = Developement set = Dev set
 * Like <ins>Accuracy</ins> or <ins>Recall</ins> or combination of them (<ins>F1 score</ins>) and etc.
 * If it can not be just 1 metric :
   * For exmaple: <ins>Acuuracy</ins> and <ins>runtime</ins>.
-    * In this situation our main metric (***optimization metric***) is <ins>Accuracy</ins> and <ins>runtime</ins> is ***Satisficing metric*** It means that we only care about the run time to be less than 1 second but how much? Not important!
+    * In this situation our main metric (***optimization metric***) is <ins>Accuracy</ins> and <ins>runtime</ins> is ***Satisficing metric***. It means that we only care about the run time to be less than 1 second but how much? Not important!
 ## 3- Calculating human level performance:
 * human level performance and single number evaluation metric have the same type (for example both are <ins>accuracy</ins>).
 * How we find the value of human level performance (like accuracy)? 
@@ -42,11 +42,12 @@ Validation set = Developement set = Dev set
 Bayes optimal error : Best possible error
 
 Human level error can be a proxy for bayes optimal error (for a task that humans can do quite well like computer vision).
+
 <img src="https://latex.codecogs.com/svg.latex?\dpi{100}\text{Human%20level%20error}\leq\text{%20%20bayes%20optimal%20error}" /> 
 
-<img src="https://latex.codecogs.com/svg.latex?\dpi{100}\text{Avoidable%20bias}=\text{Bayes%20error}-\text{Training%20error}" /> 
+***Avoidable bias*** = Distance between <ins>Bayes optimal error</ins> and <ins>Training error</ins>.
 
-<img src="https://latex.codecogs.com/svg.latex?\dpi{100}\text{Varaince}=\text{Training%20error}-\text{dev%20error}" /> 
+***Variance*** = Distance between <ins>Training error</ins> and <ins>Dev error</ins>.
 
 ### 4- Imporving the metric   
 #### Imporve fitting training set on cost function (reduce avoidable bias):
@@ -67,7 +68,7 @@ For cat detector if you want a specific breed to be recognized correctly, you ca
 
 <img src="https://latex.codecogs.com/svg.latex?\dpi{100}\frac{1}{M}\sum_{i=1}^Mloss(y_i,\widehat{y}_i)\Rightarrow%20\frac{1}{\sum%20W_i}\sum_{i=1}^M%20W_i\cdot%20loss(y_i,\widehat{y}_i)\small{,\%20\%20\%20\%20\%20W_i=\begin{cases}10%20&%20X_i%20=%20specific\%20cat\\1%20&%20X_i\neq%20specific\%20cat%20\end{cases}}" /> 
 
-  The error(evaluation metric) now will be :
+  The error (evaluation metric) now will be :
   
 <img src="https://latex.codecogs.com/svg.latex?\dpi{100}error%20=%20\frac{1}{\sum%20W_i}%20\sum_{i=1}^M%20W_i%20\cdot%201\{y_i%20\neq%20\widehat{y}_i%20\}" /> 
 
