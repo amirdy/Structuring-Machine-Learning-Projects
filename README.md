@@ -17,14 +17,14 @@ Validation set = Developement set = Dev set
 * Test set: 1 %
 
 #### Important Notices:
-- Dev set and Test set should have thesame distribution
+- Dev set and Test set should have the same distribution.
 - Size of test set [Andrew NG]:
-  > Set your test set to be big enough to give high confidence in the overall performance of your system
+  > Set your test set to be big enough to give high confidence in the overall performance of your system.
 - Choosing dev set [Andrew NG]:
-  > Choose a dev set and test set to reflect data you expect to get in the future and consider important to do well on 
+  > Choose a dev set and test set to reflect data you expect to get in the future and consider important to do well on.
 
 ## 2- Defining single number evaluation metric:
-* Like ***Accuracy*** or ***Recall*** or combination of them (***F1 score***) and etc.
+* Like <ins>Accuracy</ins> or <ins>Recall</ins> or combination of them (<ins>F1 score</ins>) and etc.
 * If it can not be just 1 metric :
   * For exmaple: ***Acuuracy*** and ***run*** time.
     * In this situation our main metric (***optimization metric***) is ***Accuracy*** and ***run time*** is ***Satisficing metric***. It means that we only care about the run time to be less than 1 second but how much? not important!
