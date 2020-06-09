@@ -1,5 +1,5 @@
 # Structuring Machine Learning Projects
-Based on the Structuring Machine Learning Projects course Published on Coursera [[Go]](https://www.coursera.org/learn/machine-learning-projects/home/welcome)
+Mainly based on the Structuring Machine Learning Projects course Published on Coursera [[Go]](https://www.coursera.org/learn/machine-learning-projects/home/welcome)
 
 ## 1- Dataset spliting:
 
@@ -49,7 +49,7 @@ Human level error can be a proxy for bayes optimal error (for a task that humans
 
 ***Variance*** = Distance between <ins>Training error</ins> and <ins>Dev error</ins>.
 
-### 4- Imporving the metric   
+### 4- Imporving the metric:
 #### Imporve fitting training set on cost function (reduce avoidable bias):
 1. Training bigger model
 1. Train longer/better optimization algorithms (such as momentum, Rmsprob, Adam and etc)
