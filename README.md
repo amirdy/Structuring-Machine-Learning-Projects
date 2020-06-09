@@ -27,7 +27,7 @@ Validation set = Developement set = Dev set
 * Like <ins>Accuracy</ins> or <ins>Recall</ins> or combination of them (<ins>F1 score</ins>) and etc.
 * If it can not be just 1 metric :
   * For exmaple: <ins>Acuuracy</ins> and <ins>runtime</ins>.
-    * In this situation our main metric (<ins>optimization metric</ins> is <ins>Accuracy</ins> and <ins>runtime</ins> is <ins>Satisficing metric</ins> It means that we only care about the run time to be less than 1 second but how much? not important!
+    * In this situation our main metric (***optimization metric*** is <ins>Accuracy</ins> and <ins>runtime</ins> is ***Satisficing metric*** It means that we only care about the run time to be less than 1 second but how much? not important!
 * This single number evaluation metric, should be at least equal to human level performance (by training)
 * human level performance and single number evaluation metric have the same type (for example both are accuracy)
 * How we find the value of human level performance (like accuracy )? 
