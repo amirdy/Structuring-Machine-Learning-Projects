@@ -72,4 +72,7 @@ For cat detector if you want a specific breed to be recognized correctly, you ca
   
 <img src="https://latex.codecogs.com/svg.latex?\dpi{100}error%20=%20\frac{1}{\sum%20W_i}%20\sum_{i=1}^M%20W_i%20\cdot%201\{y_i%20\neq%20\widehat{y}_i%20\}" /> 
 
+# Reference
+
+[1] https://www.coursera.org/learn/machine-learning-projects/home/welcome
 
