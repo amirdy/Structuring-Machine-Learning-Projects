@@ -1,5 +1,5 @@
 # Structuring Machine Learning Projects
-Based on the Structuring Machine Learning Projects course Published on Coursera [[Go]](https://www.coursera.org/learn/machine-learning-projects/home/welcome)
+Based on the <ins>Structuring Machine Learning Projects</ins> course Published on Coursera [[Go]](https://www.coursera.org/learn/machine-learning-projects/home/welcome)
 
 ## 1- Dataset spliting:
 
