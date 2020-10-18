@@ -66,11 +66,11 @@ Human level error can be a proxy for bayes optimal error (for a task that humans
 ### A trick:
 For cat detector if you want a specific breed to be recognized correctly, you can change the loss as below:
 
-<img src="https://latex.codecogs.com/svg.latex?\dpi{100}\frac{1}{M}\sum_{i=1}^Mloss(y_i,\widehat{y}_i)\Rightarrow%20\frac{1}{\sum%20W_i}\sum_{i=1}^M%20W_i\cdot%20loss(y_i,\widehat{y}_i)\small{,\%20\%20\%20\%20\%20W_i=\begin{cases}10%20&%20X_i%20=%20specific\%20cat\\1%20&%20X_i\neq%20specific\%20cat%20\end{cases}}" /> 
+<img src="./Loss.svg" /> 
 
   The error (evaluation metric) now will be :
   
-<img src="https://latex.codecogs.com/svg.latex?\dpi{100}error%20=%20\frac{1}{\sum%20W_i}%20\sum_{i=1}^M%20W_i%20\cdot%201\{y_i%20\neq%20\widehat{y}_i%20\}" /> 
+<img src="./Error.svg" /> 
 
 # Reference
 
